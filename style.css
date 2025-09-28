@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9fb;
+  color: #333;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 40px;
+}
+.leftAlign-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: -28px;
+}
+
+.leftAlign-date h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.leftAlign-date .side {
+  color: #555;
+}
+
+.certifications {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications li {
+  display: flex;
+  justify-content: space-between; 
+  padding: 1px 0;
+}
+
+.cert-name {
+  font-weight: 500;
+}
+
+.cert-date {
+  color: #555;
+}
+.award-list {
+  list-style: none;
+  padding: 0;
+}
+
+.award-list li {
+  display: flex;
+  justify-content: space-between; 
+  padding: 1px 0; 
+}
+
+.award-name {
+  font-weight: 500;
+}
+
+.award-date {
+  color: #555;
+}
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 20px; 
+}
+.section-photo img {
+  max-width: 150px;    
+  object-fit: cover;  
+}
+.section-bigphoto img {
+  max-width: 350px;    
+  object-fit: cover;  
+}
+.section-info {
+  flex: 1;
+}
